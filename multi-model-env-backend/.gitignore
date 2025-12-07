@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.venv
+./backend/checkpoints/llava-v1.5-7b-task-geoground
+checkpoints
+__pycache__
+captioning.zip
+grounding.zip
+vqa.zip
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Also ignore zip archives (some already listed) and any grounding/captioning directories
+captioning/
+grounding/
+tmp_env/
+vqa/
+*.zip
